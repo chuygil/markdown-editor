@@ -15,7 +15,7 @@ export default function Editor() {
 
   React.useEffect(() => {
     const startState = EditorState.create({
-      doc: '# Hello, World',
+      doc: '# Hello, World\n\nThis is made using [CodeMirror 6](https://codemirror.net/6/)',
       extensions: [
         basicSetup,
         keymap.of([defaultKeymap, indentWithTab]),
