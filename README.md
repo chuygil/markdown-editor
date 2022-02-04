@@ -1,4 +1,4 @@
-# Markdown Editor
+# Markdown Editor with preview
 
 Testing out using CodeMirror 6
 
